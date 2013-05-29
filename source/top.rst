@@ -1,24 +1,39 @@
-.. Venus.js documentation master file, created by
-   sphinx-quickstart on Thu May 16 21:21:44 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Venus.js documentation master file
 
-Welcome to Venus.js's documentation!
+Venus.js Documentation
 ====================================
 
-Contents:
+Introduction
+---------------
 
 .. toctree::
    :maxdepth: 2
 
    getting_started.rst
 
+Tutorials
+---------------------
 
+.. toctree::
+   :glob:
 
-Indices and tables
-==================
+   tutorials/*
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Reference
+----------------------------
 
+* Command line flags
+* Config files
+* Annotations (@venus-*)
+
+Development Guide
+--------------------
+
+.. toctree::
+   :glob:
+
+   dev_guide/*
+
+.. * Contributing to Venus.js
+.. * Architecture
+.. * Releasing new builds
