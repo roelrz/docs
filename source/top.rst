@@ -22,9 +22,10 @@ Tutorials
 Reference
 ----------------------------
 
-* Command line flags
-* Config files
-* Annotations (@venus-*)
+.. toctree::
+   :glob:
+
+   reference/*
 
 Development Guide
 --------------------
