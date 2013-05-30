@@ -1,21 +1,19 @@
 .. _command_line_flags:
 
-******************
+***************
 Command line flags
-******************
+***************
 
-Venus allows you to use comment-based annotations to define configurations for your unit test:
-
----------
 venus run
----------
+----
 
-Will run tests specified as an argument to the ``--tests`` or ``-t`` option. When this command is executed, venus will look for a ``.venus`` config file in the current directory or otherwise traverse upwards until one is found. If no config file is found you will recieve an error.
+Run tests specified as an argument to the -t or --test option. When this command is executed, venus will look for a `.venus` config file in the current directory or otherwise traverse upwards until one is found. If no config file is found you will recieve an error.
 
 Options:
 
 ::
 
+<<<<<<< HEAD
   -h, --help                        output usage information
   -t, --test [tests]                Comma separated string of tests to run
   -p, --port [port]                 port to run on
@@ -67,7 +65,8 @@ Output:
     |-templates/
     |-libraries/
 
-Boilderplate ``.venus/config`` file:
+Boilerplate `.venus/config` file:
+
 ::
 
   // Configuration file for Venus
@@ -81,15 +80,13 @@ Boilderplate ``.venus/config`` file:
     basePaths: {}
   }
 
-----------
 venus demo
-----------
+----
 
-Runs an example venus test using mocha and phantomjs
+Runs an example venus test using Mocha and PhantomJS
 
-example:
+Example: 
+
 ::
 
   venus demo
-
-

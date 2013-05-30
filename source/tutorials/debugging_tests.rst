@@ -26,15 +26,11 @@ indicator that something is wrong with your test. This is an example of
 how the iframe looked on one test were I was triggering a redirect and
 by doing that breaking my tests:
 
-.. figure:: images/debugging/image3.png
-   :align: center
-   :alt: Test
+.. image:: images/debugging/image3.png
 
-   Test
 Knowing this is also useful to find out why a test is failing or
 something is not working as expected. Since you now have access to your
 JS files from your developer tools you can set break points and go
 through the code step by step to figure out why something is failing.
 
 .. image:: images/debugging/image4.png
-
